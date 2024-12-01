@@ -1,0 +1,28 @@
+{
+    "status": "OK",
+    "results": [
+        {
+            "section": "world",
+            "subsection": "americas",
+            "des_facet": [
+                "Drug Cartels",
+                "Fentanyl"
+            ],
+            "org_facet": [
+                "Sinaloa Cartel"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2024/11/19/multimedia/19mexico-chemists-fkgt/19mexico-chemists-fkgt-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2024/11/19/multimedia/19mexico-chemists-fkgt/19mexico-chemists-fkgt-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400
+                }
+            ]
+        }
+    ]
+}
