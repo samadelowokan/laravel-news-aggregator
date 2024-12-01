@@ -40,6 +40,9 @@
         <div>
             <p><a href="/fetch" class="btn btn-primary btm-sm" id="fetchButton">Refresh Articles</a></p>
         </div>
+        <div>
+            <p><a href="/api" class="btn btn-primary btm-sm" id="fetchButton">API Endpoints</a></p>
+        </div>
         @else
         <div>
             <p class="">No posts to show</p>
