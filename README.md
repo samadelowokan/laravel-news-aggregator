@@ -13,38 +13,32 @@ composer install
 npm install
 ```
 
-2.  Copy the `.env.example` file to `.env` and edit appropriately:
-
-```bash
-cp .env.example .env
-```
-
-3. Update the Database Variables in the .env file:
+2. Update the Database Variables in the .env file:
    DB_DATABASE, DB_USERNAME and DB_PASSWORD
 
-4. Update the API variables in the .env file:
+3. Update the API variables in the .env file:
    NEWS_API_KEY, GUARDIAN_KEY, NYTIMES_KEY and BBC_KEY
 
-5. Run the migration
+4. Run the migration
 
 ```bash
 php artisan migrate
 ```
 
-6. To fetch articles from News APIs and store in the database, visit https://localhost/fetch or run the following from the command line:
+5. To fetch articles from News APIs and store in the database, visit https://localhost/fetch or run the following from the command line:
 
 ```bash
 php artisan schedule:work
 php artisan app:fetch-store-articles
 ```
 
-7. To schedule News Articles for automatic updates, add this to your server cronjob setting once
+6. To schedule News Articles for automatic updates, add this to your server cronjob setting once
 
 ```
 * * * * * php /path-to-your-project/artisan schedule:run >> /dev/null 2>&1
 ```
 
-8. For troubleshooting, check the storage/logs/laravel.log file
+7. For troubleshooting, check the storage/logs/laravel.log file
 
 ## Testing
 
